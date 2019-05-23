@@ -1,4 +1,4 @@
-# smart-colors
+# smart-colors custom element
 Material Colors Web Component
 
 We will show you how to define a Custom Element with the Smart Framework. We will create a Material Color Picker custom element. The source code about it is within the smart.colors.js file. The minified version of the source code is smart.colors.min.js
