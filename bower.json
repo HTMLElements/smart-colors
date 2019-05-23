@@ -1,0 +1,28 @@
+{
+  "name": "smart-colors",
+  "authors": [
+    "jQWidgets Ltd"
+  ],
+  "description": "Smart Colors is a FREE Material Color Picker Web Component.",
+  "license": "Apache-2.0",
+  "keywords": [
+     "color picker",
+     "bootstrap color picker",
+     "material",
+     "material color picker",
+     "color picker web component",
+     "color pickers web component",
+     "web component"
+  ],
+  "main": "",
+  "ignore": [
+    "**/.*",
+    "**/node_modules",
+    "**/bower_components",
+    "**/tests"
+  ],
+  "dependencies": {
+    "webcomponentsjs": "^1.0.0",
+    "smart-core": "HTMLElements/smart-core"
+  }
+}
