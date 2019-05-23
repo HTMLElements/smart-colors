@@ -170,8 +170,7 @@ Smart('smart-colors', class SmartColors extends Smart.BaseElement {
 
 <p class="codepen" data-height="340" data-theme-id="0" data-default-tab="js,result" data-user="boyko-markov" data-slug-hash="JqpWeb" style="height: 340px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="SMART HTML ELEMENTS">
   <span>See the Pen <a href="https://codepen.io/boyko-markov/pen/JqpWeb/">
-  SMART HTML ELEMENTS</a> by Boyko Markov (<a href="https://codepen.io/boyko-markov">@boyko-markov</a>)
+  SMART MATERIAL COLOR PICKER</a>(<a href="https://codepen.io/boyko-markov">@boyko-markov</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
   
