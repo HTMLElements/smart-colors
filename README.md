@@ -2,22 +2,15 @@
 Material Colors Web Component
 
 In this post, we will show you how to define a Custom Element with Smart Framework. We will create a Material Color Picker custom element.
-<link rel="stylesheet" href="/wp-content/design/assets/stylesheets/prettify.css" type="text/css" /> 
-<script type="text/javascript" src="/wp-content/design/assets/js/prettify.js"></script>
-<script>
-window.onload = function() {
-prettyPrint();
-}
-</script>
-<br/><br/>
-1. Define the Custom Element. To define a new custom element with <strong>Smart Framework</strong>, we need to call the <strong>Smart</strong> function with two parameters - the tag name and the <strong>Class</strong> with the logic.
-<br/><br/>
+
+1. Define the Custom Element. To define a new custom element with `Smart Framework`, we need to call the `Smart` function with two parameters - the tag name and the `Class` with the logic.
+
 ```
 Smart('smart-colors', class SmartColors extends Smart.BaseElement {  
 }
 ```
-<br/><br/>
-2. <strong>Smart Framework</strong> gives us useful things like Templates, Data Binding, Typed Properties, Lifecycle callbacks, Event Handling. Read more about this <a target="_blank" href="https://www.htmlelements.com/docs/base-element/">https://www.htmlelements.com/docs/base-element/</a>. In our Custom Element, we will use some of these features. We will use the 'ready' lifecycle callback. It is invoked once, when the element is attached for first time. We use this function to create and initialize the custom element. The 'properties' definition includes a property called 'color'. This property has default value - '#fff' and its type is 'string'. This means that when you try to set a 'bool', 'date', 'numeric' value, the element will throw an error with 'Invalid property type'. To raise the 'change' event, we use the '$.fireEvent' method.  
+
+2. `Smart Framework` gives us useful things like Templates, Data Binding, Typed Properties, Lifecycle callbacks, Event Handling. Read more about this <a target="_blank" href="https://www.htmlelements.com/docs/base-element/">https://www.htmlelements.com/docs/base-element/</a>. In our Custom Element, we will use some of these features. We will use the 'ready' lifecycle callback. It is invoked once, when the element is attached for first time. We use this function to create and initialize the custom element. The 'properties' definition includes a property called 'color'. This property has default value - '#fff' and its type is 'string'. This means that when you try to set a 'bool', 'date', 'numeric' value, the element will throw an error with 'Invalid property type'. To raise the 'change' event, we use the '$.fireEvent' method.  
 <br/><br/>
 3. The full code of our custom element is below
 ```javascript
